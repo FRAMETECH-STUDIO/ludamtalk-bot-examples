@@ -1,0 +1,9 @@
+{
+  "name": "ludam-security-bot",
+  "version": "1.0.0",
+  "private": true,
+  "main": "bot.js",
+  "scripts": { "start": "node --env-file=.env bot.js" },
+  "engines": { "node": ">=20.6" },
+  "dependencies": { "ludamtalk": "^1.0.0" }
+}
